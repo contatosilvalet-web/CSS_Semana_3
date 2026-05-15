@@ -1,0 +1,81 @@
+html {
+    /* Estilo de fundo da página */
+    background-color: #fcd4f6;
+    padding: 20px;
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExNDVmMzcwd2VrNjM3bHQ1OGhpMWR3NmFkZDdkbjhnd2VreGw2b2ozdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/SS8pVIhR4vHU2rANmO/giphy.gif);
+    background-size: cover;
+    background-position: center;
+}
+
+
+/* Estilo da caixinha*/
+
+.cartao {
+    background-color: #ffdefd;
+    padding: 40px;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px rgba(179, 0, 80, 0.2);
+    max-width: 600px;
+    text-align: center;
+    border: 2px solid #ff039a;
+}
+
+h1 {
+    /* Estilo para o meu nome */
+    color: #ff039a;
+    margin-bottom: 32px;
+    font-size: 2.8rem;
+    text-align: center;
+    font-family: "Fraunces", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "SOFT" 0, "WONK" 0;
+}
+
+p {
+    /* Estilo para o textinho*/
+    font-size: 2.0rem;
+    color: #b30050;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+main {
+    /*Para deixar tudo centralizado*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+section {
+    text-align: center;
+    max-width: 600px;
+}
+
+.contact-button {
+    /*Efeitos do botão de contato*/
+    background-image: url('https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExZXFhcTRzZHZwNGt0MGpuMzRuNG9sNDdwdXZubmxrY2g5bm1qZGpwayZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/x8Jmfuz6xbVCM/giphy.gif');
+    background-size: cover;
+    background-position: center;
+    color: #b30050;
+    font-size: 1.2rem;
+    padding: 20px 40px;
+    border: 3px solid #b30050;
+    border-radius: 15px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 25px;
+    transition: all 0.5s ease;
+}
+
+.contact-button:hover {
+    /*Efeitos do botão de contato quando passar o mouse por cima*/
+    filter: brightness(1.3);
+    transform: scale(1.05);
+}
